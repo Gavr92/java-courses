@@ -8,8 +8,6 @@ public class Action{
         String operation = "";
         String second = "";
         double result = 0;
-        
-        //tres
         try{
             Calculator calc = new Calculator();
             String exit = "no";
