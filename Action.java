@@ -8,14 +8,18 @@ public class Action{
         String operation = "";
         String second = "";
         double result = 0;
+        
+        //tres
         try{
             Calculator calc = new Calculator();
             String exit = "no";
             boolean errorOperation = false;
             while(!exit.equals("yes")){
                 if(!errorOperation){
-                    System.out.println("Enter first arg: ");
-                    first = reader.next();
+                    if(first.equals("")){
+                        System.out.println("Enter first arg: ");
+                        first = reader.next();
+                    }
                 
                     System.out.println("Enter operation(+, -, /, *, ^): ");
                     operation = reader.next();
@@ -54,7 +58,17 @@ public class Action{
                 }
                 errorOperation = false;
                 System.out.println("Result: " + result);
-                calc.clearResult();
+                
+                System.out.println("Clear result?(yes/no)");
+                String clearResult = reader.next();
+                if(clearResult.equals("yes")){
+                   calc.clearResult();
+                   first = "";
+                }
+                else{
+                  first = String.valueOf((int)result);
+                  System.out.println(first);
+                }
                 System.out.println("Exit?");
                 exit = reader.next();
             }
