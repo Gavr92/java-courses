@@ -1,4 +1,4 @@
-/*
+package ru.lesson.lessons;/*
  *Интерфейс описывает питомца
  */
 

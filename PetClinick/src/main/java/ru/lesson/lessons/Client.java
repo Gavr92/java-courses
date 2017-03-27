@@ -1,3 +1,4 @@
+package ru.lesson.lessons;
 /*
  *Класс, описывающий клиента
  */

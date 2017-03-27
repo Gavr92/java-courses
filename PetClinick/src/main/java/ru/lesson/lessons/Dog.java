@@ -1,3 +1,4 @@
+package ru.lesson.lessons;
 /*
  * Класс, расширяющий класс Animal и реализующий интерфейс Pet
  */

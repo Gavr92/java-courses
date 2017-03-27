@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 import java.util.ArrayList;
 /*
  *Класс для тестирования класса Clinic

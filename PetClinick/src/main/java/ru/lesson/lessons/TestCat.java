@@ -1,3 +1,5 @@
+package ru.lesson.lessons;
+
 /*
  *Класс для тестирования методов класса Cat и Animal
  */
